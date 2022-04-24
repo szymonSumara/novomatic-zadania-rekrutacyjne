@@ -1,4 +1,4 @@
 # novomatic-zadania-rekrutacyjne
 
 
-![Employee data](/doc/case1)
+![Employee data](https://github.com/szymonSumara/novomatic-zadania-rekrutacyjne/doc/case1)
