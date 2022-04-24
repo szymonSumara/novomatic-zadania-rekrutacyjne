@@ -10,25 +10,10 @@ By sprawdzić czy dane dwa trójkąty nie posiadają części wspólnej, sprawdz
 ------------------------------------
 
 By sprawdzić czy pomiędzy prostokątem a kołem dochodzi do kolizji sprawdzam trzy przypadki: 
-  1) czy środek koła nie znajduje się w prostokącie  
-  2) czy prostokąt nie znajduje się w okręgu (wystarczy sprawdzić czy jeden z jego wierzchołków leży w okręgu) 
-  3) czy któryś z boków nie przecina się z okręgiem 
+  1) czy środek koła nie znajduje się w prostokącie  [przykład](https://github.com/szymonSumara/novomatic-zadania-rekrutacyjne/blob/main/doc/case4.png)
+  2) czy prostokąt nie znajduje się w okręgu (wystarczy sprawdzić czy jeden z jego wierzchołków leży w okręgu) [przykład](https://github.com/szymonSumara/novomatic-zadania-rekrutacyjne/blob/main/doc/case1.png) 
+  3) czy któryś z boków nie przecina się z okręgiem [przykład 1](https://github.com/szymonSumara/novomatic-zadania-rekrutacyjne/blob/main/doc/case2.png),  [przykład 2](https://github.com/szymonSumara/novomatic-zadania-rekrutacyjne/blob/main/doc/case3.png)
   
-  
- <img src="" style="width:30%">
- 
- <div align="center">
-  <div style="display: flex; align-items: flex-start;">
-    <img src="https://github.com/szymonSumara/novomatic-zadania-rekrutacyjne/blob/main/doc/case1.png"/>
-    <img src="https://github.com/szymonSumara/novomatic-zadania-rekrutacyjne/blob/main/doc/case2.png" />
-  </div>
-</div>
-
-  
-
-![Employee data](https://github.com/szymonSumara/novomatic-zadania-rekrutacyjne/blob/main/doc/case2.png)
-![Employee data](https://github.com/szymonSumara/novomatic-zadania-rekrutacyjne/blob/main/doc/case3.png)
-![Employee data](https://github.com/szymonSumara/novomatic-zadania-rekrutacyjne/blob/main/doc/case4.png)
 
 ## Zadanie nr. 3
 -------------------------------------
