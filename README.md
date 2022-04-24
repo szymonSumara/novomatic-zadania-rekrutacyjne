@@ -15,8 +15,13 @@ By sprawdzić czy pomiędzy prostokątem a kołem dochodzi do kolizji sprawdzam 
   3) czy któryś z boków nie przecina się z okręgiem 
   
   
-<div style="width:60px ; height:60px">
-  <img src="https://github.com/szymonSumara/novomatic-zadania-rekrutacyjne/blob/main/doc/case1.png" style="width:100%">
+ <img src="" style="width:30%">
+ 
+ <div align="center">
+  <div style="display: flex; align-items: flex-start;">
+    <img src="https://github.com/szymonSumara/novomatic-zadania-rekrutacyjne/blob/main/doc/case1.png"/>
+    <img src="https://github.com/szymonSumara/novomatic-zadania-rekrutacyjne/blob/main/doc/case2.png" />
+  </div>
 </div>
 
   
