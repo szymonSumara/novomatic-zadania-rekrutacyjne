@@ -10,9 +10,9 @@ By sprawdzić czy dane dwa trójkąty nie posiadają części wspólnej, sprawdz
 ------------------------------------
 
 By sprawdzić czy pomiędzy prostokątem a kołem dochodzi do kolizji sprawdzam trzy przypadki: 
-  1) czy środek koła nie znajduje się w prostokącie  [I'm an inline-style link with title](https://github.com/szymonSumara/novomatic-zadania-rekrutacyjne/blob/main/doc/case1.png "Google's Homepage")
-  2) czy prostokąt nie znajduje się w okręgu (wystarczy sprawdzić czy jeden z jego wierzchołków leży w okręgu) 
-  3) czy któryś z boków nie przecina się z okręgiem 
+  1) czy środek koła nie znajduje się w prostokącie  [Przykład](https://github.com/szymonSumara/novomatic-zadania-rekrutacyjne/blob/main/doc/case1.png)
+  2) czy prostokąt nie znajduje się w okręgu (wystarczy sprawdzić czy jeden z jego wierzchołków leży w okręgu) [Przykład](https://github.com/szymonSumara/novomatic-zadania-rekrutacyjne/blob/main/doc/case1.png) 
+  3) czy któryś z boków nie przecina się z okręgiem [Przykład](https://github.com/szymonSumara/novomatic-zadania-rekrutacyjne/blob/main/doc/case1.png)
   
   
 
