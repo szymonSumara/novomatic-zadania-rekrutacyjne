@@ -20,7 +20,7 @@ By sprawdzić czy pomiędzy prostokątem a kołem dochodzi do kolizji sprawdzam 
 <div>
 
   
-)
+
 ![Employee data](https://github.com/szymonSumara/novomatic-zadania-rekrutacyjne/blob/main/doc/case2.png)
 ![Employee data](https://github.com/szymonSumara/novomatic-zadania-rekrutacyjne/blob/main/doc/case3.png)
 ![Employee data](https://github.com/szymonSumara/novomatic-zadania-rekrutacyjne/blob/main/doc/case4.png)
