@@ -17,7 +17,7 @@ By sprawdzić czy pomiędzy prostokątem a kołem dochodzi do kolizji sprawdzam 
   
 <div style="width:60px ; height:60px">
   ![Employee data](https://github.com/szymonSumara/novomatic-zadania-rekrutacyjne/blob/main/doc/case1.png)
-<div>
+</div>
 
   
 
