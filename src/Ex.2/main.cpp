@@ -21,7 +21,8 @@ public:
     sf::CircleShape circle;
     sf::Vector2f centerPosition;
 
-    Circle( sf::Vector2f centerPosition,const float radius) : centerPosition(centerPosition), radius(radius){
+    Circle( sf::Vector2f centerPosition,const float radius) : centerPosition(centerPosition), radius(radius), circle(radius){
+
         circle.setPosition(centerPosition);
         circle.setOrigin(radius , radius);
         circle.setFillColor(  sf::Color::Red );
@@ -37,6 +38,7 @@ public:
     }
 
     void draw(sf::RenderTarget& target, sf::RenderStates states)  const {
+        std::cout << "draw" << '\n';
         target.draw(circle, states);
     }
 
@@ -44,7 +46,7 @@ public:
 
 
 const int RECTANGLE_WIDTH = 1200;
-const int RECTANGLE_HEIGHT = 600;
+const int RECTANGLE_HEIGHT = 60;
 
 const int RECTANGLE_POSITION_X = 600;
 const int RECTANGLE_POSITION_Y = 600;
@@ -76,12 +78,12 @@ int main(int argc, char const *argv[])
         sf::Vector2f C =   rectangle.getTransform().transformPoint(rectangle.getPoint(2));
         sf::Vector2f D =   rectangle.getTransform().transformPoint(rectangle.getPoint(3));
 
+        circle.paintToRed();
         if(isCircleCollidingWithRectangle(
                 {circle.centerPosition.x ,circle.centerPosition.y}, circle.radius,
                 {A.x,A.y},{B.x,B.y},{C.x,C.y},{D.x,D.y} ))
             circle.paintToGreen();
-        else
-            circle.paintToRed();
+
 
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
         {

@@ -24,7 +24,6 @@ bool isPointInsideTriangle(triangle const & tri, vec2 const & point){
             negativeCount += 1;
         else
             positiveCount += 1 ;
-    std::cout << negativeCount << " " << positiveCount << "\n";
 
     return !(negativeCount > 0 && positiveCount > 0);
 }
@@ -59,18 +58,6 @@ bool isColliding(triangle const & first ,triangle const & second){
     Segment second_a(second.points[0], second.points[1]);
     Segment second_b(second.points[1], second.points[2]);
     Segment second_c(second.points[2], second.points[0]);
-
-    std::cout << isSegmentsCrossing(first_a, second_a) <<'\n';
-    std::cout << isSegmentsCrossing(first_a, second_b) <<'\n';
-    std::cout << isSegmentsCrossing(first_a, second_c) <<'\n';
-
-    std::cout << isSegmentsCrossing(first_b, second_a) <<'\n';
-    std::cout << isSegmentsCrossing(first_b, second_b) <<'\n';
-    std::cout << isSegmentsCrossing(first_b, second_c) <<'\n';
-
-    std::cout << isSegmentsCrossing(first_c, second_a) <<'\n';
-    std::cout << isSegmentsCrossing(first_c, second_b) <<'\n';
-    std::cout << isSegmentsCrossing(first_c, second_c) <<'\n';
 
     if(isSegmentsCrossing(first_a, second_a)) return true;
     if(isSegmentsCrossing(first_a, second_b)) return true;
@@ -109,11 +96,9 @@ bool isSegmentCrossingWithCircle(const vec2  & circleCenter, const float circleR
 
     float Delta = B*B - 4*A*C;
     if(Delta < 0 ) return false;
-    std::cout << "Delta: " << Delta << " A:" << A << " B:" << B << " C:" << C << '\n' ;
 
     float x1 = ( -B - sqrt(Delta))/ (2*A);
     float x2 = ( -B + sqrt(Delta))/ (2*A);
-    std::cout << x1 << " " << x2;
     return (segment.min_x() < x1 && x1 < segment.max_x()) || (segment.min_x() < x2 && x2 < segment.max_x());
 
 }

@@ -23,14 +23,14 @@ public:
 
    Segment(vec2 a, vec2 b) : a(a), b(b) {
        if( a.x == b.x ){
-           std::cout<<"eq";
-           this->b.x += 0.0000001;
+           this->b.x += 0.0001;
        }
        calculateFactors();
    }
 
    void calculateFactors(){
-       std::cout << a.x  << " b: " << b.x << "\n";
+       std::cout << a.x << " " << b.x <<'\n';
+
        factor_a = (a.y - b.y) / (a.x - b.x);
        factor_b = a.y - a.x * factor_a;
    }
